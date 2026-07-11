@@ -9,27 +9,10 @@ The main objective of this project is to automate weather data collection using 
 ---
 
 ## 2. Architecture Diagram
-          OpenWeather API
-                 |
-                 ↓
-           AWS Lambda
-                 |
-                 ↓
-    DynamoDB (table_weather)
-                 |
-                 ↓
-      DynamoDB Streams
-                 |
-                 ↓
-            Amazon S3
-                 |
-                 ↓
-          Snowflake Analytics
-          
-          
+
+       ![AWS Weather Pipeline Architecture](architecture.png)
 
 ---
-
 ## 3. Detailed Description
 
 This project implements a serverless weather data pipeline using AWS services.
